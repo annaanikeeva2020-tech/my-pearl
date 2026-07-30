@@ -1,0 +1,27 @@
+.contact {
+    padding: 40px 0;
+}
+
+.content {
+    padding: 50px 30px;
+
+    background-color: #f5f1eb;
+    border-radius: 30px;
+
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 15px;
+
+    font-size: 40px;
+}
+
+.content p {
+    max-width: 500px;
+    margin: 0 auto 30px;
+
+    color: #6f6963;
+    font-size: 17px;
+    line-height: 1.5;
+}

@@ -1,0 +1,33 @@
+:root {
+    /* Fonts */
+    --font-heading: "Cormorant Garamond", serif;
+    --font-body: "Manrope", sans-serif;
+
+    /* Colors */
+    --color-bg: #faf8f5;
+    --color-surface: #ffffff;
+
+    --color-text: #433d39;
+    --color-text-secondary: #7b746d;
+
+    --color-accent: #b88a63;
+    --color-accent-hover: #9f7352;
+
+    --color-border: #e8dfd6;
+
+    --color-footer: #564841;
+
+    /* Layout */
+    --container-width: 1200px;
+
+    /* Radius */
+    --radius-small: 12px;
+    --radius-medium: 20px;
+    --radius-large: 32px;
+
+    /* Shadow */
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+    /* Transition */
+    --transition: 250ms ease;
+}

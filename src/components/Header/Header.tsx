@@ -7,7 +7,8 @@ export default function Header() {
       <Container>
         <div className={css.inner}>
           <a className={css.logo} href="/">
-            Az én gyöngyöm
+    <img src="/images/logo-lotus.svg" alt="" className={css.logoIcon}/>
+    <span>Az én gyöngyöm🌸</span>
           </a>
 
           <nav className={css.nav} aria-label="Fő navigáció">

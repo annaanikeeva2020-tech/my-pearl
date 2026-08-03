@@ -5,6 +5,7 @@ import Gallery from "./components/Gallery/Gallery";
 import Materials from "./components/Materials/Materials";
 import Reviews from "./components/Reviews/Reviews";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Materials />
         <Reviews />
         <Contact />
+        <Footer />
       </main>
     </>
   );

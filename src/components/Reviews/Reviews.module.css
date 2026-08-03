@@ -1,5 +1,5 @@
 .reviews {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .heading {
@@ -8,9 +8,8 @@
 }
 
 .heading h2 {
-    margin-bottom: 10px;
-
-    font-size: 42px;
+    margin-bottom: 12px;
+    font-size: 32px;
 }
 
 .heading p {
@@ -20,26 +19,52 @@
 
 .list {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr;
     gap: 20px;
 }
 
 .card {
-    padding: 30px;
-
+    padding: 24px;
     background-color: #f5f1eb;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
 }
 
 .text {
-    margin-bottom: 20px;
-
+    margin-bottom: 16px;
     color: #4f4a45;
-    font-size: 17px;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.7;
 }
 
 .name {
     color: #8a8179;
     font-size: 15px;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+.list {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.heading h2 {
+    font-size: 38px;
+}
+}
+
+@media (min-width: 1280px) {
+.list {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.heading h2 {
+    font-size: 42px;
+}
 }

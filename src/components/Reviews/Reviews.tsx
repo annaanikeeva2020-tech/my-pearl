@@ -14,6 +14,7 @@ export default function Reviews() {
         <div className={css.list}>
           {reviews.map((review) => (
             <article className={css.card} key={review.id}>
+              <blockquote className={css.text}>{review.text}</blockquote>
               <p className={css.text}>
                 "{review.text}"
               </p>

@@ -6,6 +6,7 @@ export default function Materials() {
   return (
     <section className={css.materials} id="materials">
       <Container>
+        <h2 className={css.title}>Anyagok</h2>
         <p className={css.intro}>
           Gondosan válogatott anyagokból készítem minden egyes ékszert.
         </p>

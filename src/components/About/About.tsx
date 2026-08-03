@@ -14,7 +14,7 @@ export default function About() {
           </div>
 
           <div className={css.text}>
-            <p className={css.subtitle}>Rólam</p>
+            {/* <p className={css.subtitle}>Rólam</p> */}
 
             <h2>Hogyan kezdődött minden?</h2>
 

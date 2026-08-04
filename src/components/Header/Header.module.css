@@ -1,7 +1,6 @@
 .header {
-    position: sticky;
-    background-color: #faf8f5;;
-    border-bottom: 1px solid #e5ddd5;;
+    background-color: #faf8f5;
+    border-bottom: 1px solid #e5ddd5;
 }
 
 .inner {
@@ -12,7 +11,7 @@
 }
 
 .logo {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     gap: 10px;
 
@@ -54,3 +53,28 @@
 
     color: #b98d63;
 }
+
+.menuButton {
+    display: none;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    font-size: 30px;
+}
+
+@media (max-width: 767px) {
+.menuButton {
+    display: block;
+}
+
+.nav {
+    display: none;
+}
+
+.contact {
+    display: none;
+}
+}
+

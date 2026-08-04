@@ -1,7 +1,10 @@
 import Container from "../UI/Container/Container";
 import css from "./Header.module.css";
+import { useState } from "react";
+import { HiOutlineBars3, HiOutlineXMark } from "react-icons/hi2";
 
 export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className={css.header}>
       <Container>
@@ -21,6 +24,11 @@ export default function Header() {
           <a className={css.contact} href="#contact">
             Kapcsolat
           </a>
+    <button className={css.menuButton}
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label="Menu">
+        {isMenuOpen ? <HiOutlineXMark /> : <HiOutlineBars3 />}
+    </button>
         </div>
       </Container>
     </header>

@@ -11,10 +11,6 @@
 }
 
 .logo {
-    /* display: flex; */
-    align-items: center;
-    gap: 10px;
-
     font-family: "Cormorant Garamond", serif;;
     font-size: 28px;
     font-weight: 600;
@@ -45,24 +41,91 @@
     color: #b98d63;
 }
 
+.nav.open {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #faf8f5;
+}
+
+.nav.open a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: #3f3b36;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav.open a:hover,
+.nav.open a:focus-visible {
+    color: #b98d63;
+}
+
+.nav.open a::before {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #b98d63;
+    transition: width 0.25s ease;
+}
+
+.nav.open a:hover::before,
+.nav.open a:focus-visible::before {
+    width: 16px;
+}
+
 .contact {
     padding: 10px 18px;
-
     border: 1px solid #b98d63;
     border-radius: 8px;
-
     color: #b98d63;
+}
+
+.contactMobile {
+    display: none;
+    padding: 10px 18px;
+    border: 1px solid #b98d63;
+    border-radius: 8px;
+    color: #b98d63;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.contactMobile:hover,
+.contactMobile:focus-visible {
+    background-color: #b98d63;
+    color: #ffffff;
 }
 
 .menuButton {
     display: none;
-
     background: none;
     border: none;
     cursor: pointer;
-
     font-size: 30px;
+    color: #3f3b36;
+    transition: color 0.2s ease,
+        transform 0.2s ease;
 }
+
+.menuButton:hover,
+.menuButton:focus-visible {
+    color: #b98d63;
+    transform: scale(1.1);
+}
+
+.menuButton:focus-visible {
+    color: #b98d63;
+    outline: 2px solid #b98d63;
+    outline-offset: 4px;
+}
+
 
 @media (max-width: 767px) {
 .menuButton {
@@ -73,8 +136,31 @@
     display: none;
 }
 
+.nav.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #faf8f5;
+    gap: 20px;
+    border-bottom: 1px solid #e5ddd5;
+}
+
 .contact {
     display: none;
+}
+
+.contactMobile {
+    display: inline-block;
+    padding: 10px 18px;
+    border: 1px solid #b98d63;
+    border-radius: 8px;
+    color: #b98d63;
+    text-align: center;
+    text-decoration: none;
 }
 }
 

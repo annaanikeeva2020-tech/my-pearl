@@ -14,11 +14,12 @@ export default function Header() {
     <span>Az én gyöngyöm🌸</span>
           </a>
 
-          <nav className={css.nav} aria-label="Fő navigáció">
-            <a href="#about">Rólam</a>
-            <a href="#gallery">Galéria</a>
-            <a href="#materials">Anyagok</a>
-            <a href="#reviews">Vélemények</a>
+          <nav className={`${css.nav} ${isMenuOpen ? css.open : ""}`} aria-label="Fő navigáció">
+            <a href="#about" onClick={() => setIsMenuOpen(false)}>Rólam</a>
+            <a href="#gallery" onClick={() => setIsMenuOpen(false)}>Galéria</a>
+            <a href="#materials" onClick={() => setIsMenuOpen(false)}>Anyagok</a>
+            <a href="#reviews" onClick={() => setIsMenuOpen(false)}>Vélemények</a>
+            <a href="#contact" className={css.contactMobile} onClick={() => setIsMenuOpen(false)}>Kapcsolat</a>
           </nav>
 
           <a className={css.contact} href="#contact">

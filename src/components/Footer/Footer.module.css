@@ -13,12 +13,28 @@
     gap: 16px;
 }
 
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
 .logo {
     width: 70px;
 }
 
+.logoIcon {
+    width: 48px;
+    height: 48px;
+    display: block;
+}
+
 .title {
+    font-family: "Cormorant Garamond", serif;
     font-size: 28px;
+    font-weight: 600;
+    color: #3f3b36;
 }
 
 .text {
@@ -28,13 +44,29 @@
 }
 
 .facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
     color: #b98d63;
+    border: 1px solid #b98d63;
+    border-radius: 50%;
     text-decoration: none;
-    font-weight: 600;
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease;
 }
 
-.facebook:hover {
-    text-decoration: underline;
+.facebook:hover,
+.facebook:focus-visible {
+    color: #ffffff;
+    background-color: #b98d63;
+}
+
+.facebook svg {
+    width: 20px;
+    height: 20px;
 }
 
 .copy {

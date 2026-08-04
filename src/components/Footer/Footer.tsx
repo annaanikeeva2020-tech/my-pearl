@@ -1,6 +1,7 @@
 import Container from "../UI/Container/Container";
 import css from "./Footer.module.css";
 import { FaFacebookF } from "react-icons/fa";
+import lotusLogo from "../../assets/logo/lotus.svg";
 
 export default function Footer() {
   return (
@@ -8,11 +9,9 @@ export default function Footer() {
       <Container>
         <div className={css.content}>
 
-          <img
-            src="/images/logo-lotus.svg"
-            alt="Az én gyöngyöm"
-            className={css.logo}
-          />
+          <div className={css.brand}>
+          <img src={lotusLogo} alt="Az én gyöngyöm" className={css.logoIcon}/>
+          </div>
 
           <h2 className={css.title}>
             Az én gyöngyöm
@@ -22,7 +21,7 @@ export default function Footer() {
             Kézzel készült karkötők és medálok szeretettel.
           </p>
 
-          <a className={css.facebook} href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <a className={css.facebook} href="https://www.facebook.com/erzsebet.lajter.1" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
           <FaFacebookF />
           </a>
 

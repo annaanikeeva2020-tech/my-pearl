@@ -11,15 +11,28 @@
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-family: "Cormorant Garamond", serif;;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 600;
     color: #3f3b36;
+}
+
+.logoIcon {
+    width: 44px;
+    height: 44px;
+    display: block;
 }
 
 .logo:hover,
 .logo:focus-visible {
     color: #b98d63;
+}
+
+.logoText {
+    display: inline;
 }
 
 .nav {
@@ -132,6 +145,10 @@
     display: block;
 }
 
+.logoText {
+    display: none;
+}
+
 .nav {
     display: none;
 }
@@ -161,6 +178,12 @@
     color: #b98d63;
     text-align: center;
     text-decoration: none;
+}
+}
+
+@media (max-width: 1280px) {
+.logoText {
+    display: none;
 }
 }
 

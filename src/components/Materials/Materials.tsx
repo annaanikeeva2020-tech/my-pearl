@@ -8,7 +8,7 @@ export default function Materials() {
       <Container>
         <h2 className={css.title}>Anyagok</h2>
         <p className={css.intro}>
-          Gondosan válogatott anyagokból készítem minden egyes ékszert.
+          Gondosan válogatott anyagokból készítek minden egyes ékszert.
         </p>
 
         <div className={css.grid}>

@@ -26,12 +26,27 @@
 
 .closeButton {
     position: absolute;
-    top: 15px;
-    right: 20px;
+    top: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
-    background: none;
-    font-size: 30px;
+    border-radius: 50%;
+    background-color: #f5f1eb;
+    color: #3f3b36;
     cursor: pointer;
+    font-size: 22px;
+    transition: background-color .2s ease,
+        color .2s ease;
+}
+
+.closeButton:hover,
+.closeButton:focus-visible {
+    background-color: #b98d63;
+    color: white;
 }
 
 .form {
@@ -70,4 +85,18 @@
     color: white;
     font-size: 16px;
     cursor: pointer;
+    transition:
+        background-color 0.4s ease,
+        color 0.4s ease;
+}
+
+.submitButton:hover,
+.submitButton:focus-visible {
+    background-color: #9f754f;
+    color: #ffffff;
+}
+
+.submitButton:focus-visible {
+    outline: 2px solid #b98d63;
+    outline-offset: 4px;
 }

@@ -7,17 +7,9 @@ interface ModalProps {
 export default function Modal({ onClose }: ModalProps) {
   return (
     <div className={css.backdrop} onClick={onClose}>
-      <div
-        className={css.modal}
-        onClick={(event) => event.stopPropagation()}
-      >
-        <button
-          className={css.closeButton}
-          type="button"
-          onClick={onClose}
-          aria-label="Bezárás"
-        >
-          ×
+      <div className={css.modal} onClick={(event) => event.stopPropagation()}>
+        <button className={css.closeButton} type="button" onClick={onClose} aria-label="Bezárás">
+          ✕
         </button>
 
         <h2>Írj nekem</h2>

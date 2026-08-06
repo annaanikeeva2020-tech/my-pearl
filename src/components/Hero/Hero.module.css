@@ -14,9 +14,7 @@
 
 .subtitle {
     margin-bottom: 16px;
-
-    color: var(--color-accent);
-
+    color: #b98d63;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.08em;
@@ -32,7 +30,6 @@
 .description {
     max-width: 480px;
     margin-bottom: 32px;
-
     color: #7b746d;
     font-size: 16px;
 }

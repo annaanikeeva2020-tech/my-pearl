@@ -97,6 +97,21 @@
     border: 1px solid #b98d63;
     border-radius: 8px;
     color: #b98d63;
+    text-decoration: none;
+    transition:
+        background-color 0.4s ease,
+        color 0.4s ease;
+}
+
+.contact:hover,
+.contact:focus-visible {
+    background-color: #b98d63;
+    color: #ffffff;
+}
+
+.contact:focus-visible {
+    outline: 2px solid #b98d63;
+    outline-offset: 4px;
 }
 
 .contactMobile {

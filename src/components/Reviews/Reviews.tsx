@@ -9,7 +9,7 @@ export default function Reviews() {
             <div className={css.heading}>
               <h2>Amit vásárlóim mondanak</h2>
 
-              <p>Örömmel olvasom minden kedves visszajelzést.</p>
+              <p>Örömmel olvasok minden kedves visszajelzést.</p>
             </div> 
         <div className={css.list}>
           {reviews.map((review) => (

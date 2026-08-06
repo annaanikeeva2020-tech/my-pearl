@@ -21,9 +21,11 @@ export default function Hero() {
               szeretettel, gondosan válogatott anyagokból.
             </p>
 
+            <a href="#gallery">
             <Button type="button">
               Fedezd fel a kollekciót
-            </Button>
+              </Button>
+            </a>
           </div>
 
           <div className={css.imageWrapper}>

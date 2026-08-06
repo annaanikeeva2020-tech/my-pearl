@@ -1,26 +1,31 @@
+import GemIcon from "../assets/icons/gem.svg?react";
+import ThreadIcon from "../assets/icons/thread.svg?react";
+import HandHeartIcon from "../assets/icons/hand-heart.svg?react";
+import LeafProtectIcon from "../assets/icons/leaf-protect.svg?react";
+
 export const materials = [
   {
     id: 1,
-    title: "Természetes ásványgyöngyök",
-    text: "Különböző természetes ásványokból készült gyöngyök.",
-    image: "/images/materials/stones.jpg",
+    title: "Természetes anyagok",
+    text: "Csak gondosan válogatott természetes ásványokat és minőségi alapanyagokat használok.",
+    icon: GemIcon,
   },
   {
     id: 2,
-    title: "Fonalak és ékszerdrótok",
+    title: "Tartós alapanyagok",
     text: "Rugalmas ékszerfonal és ékszerdrót a tartós és kényelmes viseletért.",
-    image: "/images/materials/thread.jpg",
+    icon: ThreadIcon,
   },
   {
     id: 3,
-    title: "Ékszer szerelékek",
-    text: "Kapcsok, krimp gyöngyök és egyéb apró kiegészítők.",
-    image: "/images/materials/fittings.jpg",
+    title: "Kézzel, szeretettel készítve",
+    text: "Minden ékszer egyedileg, kézzel készül, odafigyeléssel és szeretettel.",
+    icon: HandHeartIcon,
   },
   {
     id: 4,
-    title: "Díszítőelemek és charmok",
-    text: "Apró részletek, amelyek egyedivé teszik az ékszereket.",
-    image: "/images/materials/charms.jpg",
+    title: "Természetközeli szemlélet",
+    text: "Minőségi, gondosan kiválasztott alapanyagok a természetes szépség jegyében.",
+    icon: LeafProtectIcon,
   },
 ];

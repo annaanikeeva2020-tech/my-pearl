@@ -6,24 +6,26 @@ export default function Materials() {
   return (
     <section className={css.materials} id="materials">
       <Container>
-        <h2 className={css.title}>Anyagok</h2>
+        <h2 className={css.title}>Miért különlegesek ékszereim?</h2>
+
         <p className={css.intro}>
           Gondosan válogatott anyagokból készítek minden egyes ékszert.
         </p>
 
         <div className={css.grid}>
-          {materials.map((material) => (
-            <article className={css.card} key={material.id}>
-              <img
-                src={material.image}
-                alt={material.title}
-              />
+          {materials.map((material) => {
+            const Icon = material.icon;
 
-              <h3>{material.title}</h3>
+            return (
+              <article className={css.card} key={material.id}>
+                <Icon className={css.icon} />
 
-              <p>{material.text}</p>
-            </article>
-          ))}
+                <h3>{material.title}</h3>
+
+                <p>{material.text}</p>
+              </article>
+            );
+          })}
         </div>
       </Container>
     </section>

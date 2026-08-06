@@ -1,92 +1,92 @@
 export const gallery = [
   {
     id: 1,
-    image: "/images/gallery/bracelet-01.jpg",
+    image: "/images/gallery/bracelet-01.webp",
     alt: "Kézzel készített karkötő",
-     title: "Rose Quartz karkötő",
+    title: "Ez a karkötő olyan, mint egy csendes erdei séta: megnyugtat, feltölt és visszavezet önmagadhoz",
 
     description:
-      "Természetes rózsakvarc gyöngyökből készült karkötő.",
+    "Ez a különleges ásvány karkötő riolit, matt hegyikristály és korall harmonikus találkozásából született - a természet erejét és a lélek nyugalmát hozva el viselőjének.",
 
     materials: [
-      "Rózsakvarc",
-      "Rugalmas ékszerdamil",
-      "Fém köztes gyöngy"
+    "✨ Riolit - a megújulás köve, segít az elengedésben, erősíti az önbizalmat és támogatja a belső átalakulást",
+    "🤍 Matt hegyikristály - tisztító és erősítő energia, amely egyensúlyt teremt test és lélek között",
+    "🔴 Korall - életerő, szenvedély és védelem szimbóluma, mely támogatja a stabilitást és a bátorságot"
     ]
   },
   {
-    id: 2,
-    image: "/images/gallery/bracelet-02.jpg",
+   id: 2,
+    image: "/images/gallery/bracelet-02.png",
     alt: "Kézzel készített karkötő",
-     title: "Rose Quartz karkötő",
+    title: "Misztikus Opál Karkötő - A Tiszta Elegancia és Harmónia! ",
 
     description:
-      "Természetes rózsakvarc gyöngyökből készült karkötő.",
+    "Ha egy olyan kiegészítőre vágysz, amely egyszerre sugároz kifinomultságot és pozitív energiát, akkor ez a csodás fehér opál karkötő neked készült!",
 
     materials: [
-      "Rózsakvarc",
-      "Rugalmas ékszerdamil",
-      "Fém köztes gyöngy"
+    "💎 Az opál varázsa - Különleges fényjátékával a tisztaságot és a belső békét szimbolizálja.",
+    "✨ Ezüst díszítés - Egy kis csillogás, amely kiemeli egyediségedet.",
+    "🌿 Természetes ásvány - Támogatja az érzelmi egyensúlyt és inspirációt hoz az életedbe."
     ]
   },
   {
     id: 3,
-    image: "/images/gallery/bracelet-03.jpg",
+    image: "/images/gallery/bracelet-03.webp",
     alt: "Kézzel készített karkötő",
-     title: "Rose Quartz karkötő",
+    title: "Ma reggel ezzel a különleges karkötővel indult a napom.",
 
     description:
-      "Természetes rózsakvarc gyöngyökből készült karkötő.",
+    "A természet meleg földszínei és a letisztult elegancia találkoznak ebben a kézzel készült darabban.",
 
     materials: [
-      "Rózsakvarc",
-      "Rugalmas ékszerdamil",
-      "Fém köztes gyöngy"
+    "🤍 Matt csíkos achát – a belső nyugalom és az egyensúly jelképe.",
+    "🤎 Matt képjáspis – a stabilitás, a kitartás és a földelő energia köve.",
+    "✨ Arany cirkónia köves díszítés – egy kis ragyogás, ami igazán különlegessé teszi."
     ]
   },
   {
     id: 4,
-    image: "/images/gallery/pendant-01.jpg",
+    image: "/images/gallery/bracelet-04.png",
     alt: "Kézzel készített medál",
-     title: "Rose Quartz karkötő",
+    title: "Tenger szenvedélye – Nap fénye ",
 
     description:
-      "Természetes rózsakvarc gyöngyökből készült karkötő.",
+    "Ez az egyedi ásványkarkötő a természet három erőteljes ajándékát ötvözi:",
 
     materials: [
-      "Rózsakvarc",
-      "Rugalmas ékszerdamil",
-      "Fém köztes gyöngy"
+    "❤️ Korall – életörömöt és szenvedélyt hoz",
+    "🌫️ Füstkvarc – elűzi a negatív energiákat, erősít mentálisan",
+    "🌟 Napkő – önbizalommal és pozitív életszemlélettel tölt fel"
     ]
   },
   {
     id: 5,
-    image: "/images/gallery/pendant-02.jpg",
+    image: "/images/gallery/bracelet-05.webp",
     alt: "Kézzel készített medál",
-     title: "Rose Quartz karkötő",
+    title: "Energia, harmónia és stílus egy karkötőben!",
 
     description:
-      "Természetes rózsakvarc gyöngyökből készült karkötő.",
+    "Ez a gyönyörű kézzel készült karkötő három különleges ásvány erejét egyesíti:",
 
     materials: [
-      "Rózsakvarc",
-      "Rugalmas ékszerdamil",
-      "Fém köztes gyöngy"
+    "⭐ Napkő – a belső fény és pozitivitás köve, amely segít önbizalmad növelésében.",
+    "⭐ Krizantémkő – a harmónia és kiteljesedés jelképe, amely támogatja a belső egyensúlyt.",
+    "⭐ Beige howlit – a nyugalom és tisztaság köve, amely segít a stressz oldásában."
     ]
   },
   {
-    id: 6,
-    image: "/images/gallery/bracelet-04.jpg",
+     id: 6,
+    image: "/images/gallery/bracelet-06.png",
     alt: "Kézzel készített karkötő",
-     title: "Rose Quartz karkötő",
+    title: "Tűz és Föld Harmóniája - az Etna erejével átitatva",
 
     description:
-      "Természetes rózsakvarc gyöngyökből készült karkötő.",
+    "A gránát, a matt ónix és a hematit együtt olyan erőt adnak, amely támogat a mindennapokban - stabilitást, védelmet és belső tüzet.",
 
     materials: [
-      "Rózsakvarc",
-      "Rugalmas ékszerdamil",
-      "Fém köztes gyöngy"
+    "❤️ Gránát - a szenvedély, életenergia és bátorság köve",
+    "⚫ Matt ónix - erős védelmező, amely segít elengedni a terheket",
+    "✨ Hematit - földelő hatásával egyensúlyt és magabiztosságot hoz"
     ]
   },
 ];

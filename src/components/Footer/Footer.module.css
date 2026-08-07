@@ -1,47 +1,61 @@
+
 .footer {
-    padding: 20px 0;
+    overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px 0;
+    background-color: #4a4038;
 }
 
+
+/* Основний блок футера */
+
 .content {
-    padding: 30px 20px;
-    background-color: #f5f1eb;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 16px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 60px;
 }
+
+
+/* Ліва частина */
 
 .brand {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+    text-align: center;
 }
 
-.logo {
-    width: 70px;
-}
 
 .logoIcon {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     display: block;
 }
 
+
 .title {
+    margin: 0;
     font-family: "Cormorant Garamond", serif;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
-    color: #3f3b36;
+    color: #ffffff;
 }
 
+
 .text {
-    max-width: 320px;
-    color: #6f6963;
+    max-width: 260px;
+    margin: 0;
+    color: #e4dbd2;
     line-height: 1.6;
 }
+
+
+/* Facebook */
 
 .facebook {
     display: flex;
@@ -49,8 +63,9 @@
     justify-content: center;
     width: 36px;
     height: 36px;
-    color: #b98d63;
-    border: 1px solid #b98d63;
+    margin-top: 5px;
+    color: #c49a70;
+    border: 1px solid #c49a70;
     border-radius: 50%;
     text-decoration: none;
     transition:
@@ -58,39 +73,162 @@
         background-color 0.2s ease;
 }
 
+
 .facebook:hover,
 .facebook:focus-visible {
     color: #ffffff;
-    background-color: #b98d63;
+    background-color: #c49a70;
 }
+
 
 .facebook svg {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
 }
+
+
+/* Контакти */
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+
+
+.contacts h3 {
+    margin: 0 0 8px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+.contacts a,
+.contacts p {
+    margin: 0;
+    color: #e4dbd2;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+.contacts a {
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+
+.contacts a:hover,
+.contacts a:focus-visible {
+    color: #c49a70;
+}
+
+
+/* Права частина */
+
+.message {
+    max-width: 280px;
+    justify-self: center;
+    text-align: center;
+}
+
+
+.message p {
+    margin: 0 0 12px;
+    color: #e4dbd2;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+.message p:first-child {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #ffffff;
+}
+
+
+/* Copyright */
 
 .copy {
-    margin-top: 10px;
-    color: #8a8179;
-    font-size: 14px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 10px auto 0;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    text-align: center;
+    color: #cfc5bc;
+    font-size: 13px; 
 }
 
-@media (min-width: 768px) {
-.title {
-    font-size: 32px;
+
+/* Планшет */
+
+@media (max-width: 768px) {
+.footer {
+    padding: 40px 0 20px;
 }
 
-.logo {
-    width: 80px;
+.logoIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.content {
+    grid-template-columns: 1fr;
+    gap: 35px;
+}
+
+
+.brand {
+    align-items: center;
+    text-align: center;
+}
+
+
+.text {
+    text-align: center;
+}
+
+
+.contacts {
+    align-items: center;
+    text-align: center;
+}
+
+
+.message {
+    max-width: 320px;
+    justify-self: center;
+    text-align: center;
+}
+
+
+.copy {
+    margin-top: 30px;
 }
 }
+
+/* десктоп */
 
 @media (min-width: 1280px) {
-.title {
-    font-size: 36px;
+.content {
+    gap: 80px;
 }
 
-.logo {
-    width: 90px;
+
+.logoIcon {
+    width: 50px;
+    height: 50px;
+}
+
+
+.title {
+    font-size: 24px;
 }
 }

@@ -6,11 +6,11 @@ export default function Reviews() {
   return (
     <section className={css.reviews} id="reviews">
       <Container>
-            <div className={css.heading}>
+        <div className={css.heading}>
               <h2>Amit vásárlóim mondanak</h2>
-
               <p>Örömmel olvasok minden kedves visszajelzést.</p>
-            </div> 
+        </div> 
+        
         <div className={css.list}>
           {reviews.map((review) => (
             <article className={css.card} key={review.id}>
@@ -23,12 +23,7 @@ export default function Reviews() {
           — {review.name}
         </p>
       </div>
-
-      <img
-        className={css.image}
-        src={review.image}
-        alt={review.name}
-      />
+      <img className={css.image} src={review.image} alt={review.name}/>
             </article>
           ))}
         </div>

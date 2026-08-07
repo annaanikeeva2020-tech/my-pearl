@@ -14,7 +14,6 @@ export default function Header() {
     <img src={lotusLogo} alt="Lotus logo" className={css.logoIcon}/>
     <span className={css.logoText}>Az én gyöngyöm</span>
           </a>
-
           <nav className={`${css.nav} ${isMenuOpen ? css.open : ""}`} aria-label="Fő navigáció">
             <a href="#about" onClick={() => setIsMenuOpen(false)}>Rólam</a>
             <a href="#gallery" onClick={() => setIsMenuOpen(false)}>Galéria</a>
@@ -22,7 +21,6 @@ export default function Header() {
             <a href="#reviews" onClick={() => setIsMenuOpen(false)}>Vélemények</a>
             <a href="#contact" className={css.contactMobile} onClick={() => setIsMenuOpen(false)}>Kapcsolat</a>
           </nav>
-
           <a className={css.contact} href="#contact">
             Kapcsolat
           </a>

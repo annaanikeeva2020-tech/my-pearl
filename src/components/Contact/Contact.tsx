@@ -12,21 +12,15 @@ export default function Contact() {
       <Container>
         <div className={css.content}>
           <h2>Szeretnél egy egyedi ékszert?</h2>
-
           <p>
             Szívesen elkészítem neked azt a különleges darabot,
             amely igazán hozzád illik.
           </p>
-
-          <Button
-            type="button"
-            onClick={() => setIsModalOpen(true)}
-          >
+          <Button type="button" onClick={() => setIsModalOpen(true)}>
             Írj nekem
           </Button>
         </div>
       </Container>
-
       {isModalOpen && (
         <Modal onClose={() => setIsModalOpen(false)} />
       )}

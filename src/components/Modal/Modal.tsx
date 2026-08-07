@@ -11,9 +11,7 @@ export default function Modal({ onClose }: ModalProps) {
         <button className={css.closeButton} type="button" onClick={onClose} aria-label="Bezárás">
           ✕
         </button>
-
         <h2>Írj nekem</h2>
-
         <form className={css.form}>
           <label>
             Neved

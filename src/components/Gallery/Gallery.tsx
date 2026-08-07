@@ -13,7 +13,6 @@ export default function Gallery() {
       <Container>
         <div className={css.content}>
           <h2>Galéria</h2>
-
           <div className={css.grid}>
             {gallery.map((item) => (
               <img className={css.image}
@@ -24,7 +23,6 @@ export default function Gallery() {
               />
             ))}
           </div>
-
       {selectedItem && (
       <Modal
         item={selectedItem}

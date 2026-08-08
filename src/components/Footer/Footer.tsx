@@ -19,14 +19,12 @@ export default function Footer() {
               <FaFacebookF />
             </a>
           </div>
-
           <div className={css.contacts}>
             <h3>Kapcsolat</h3>
             <a href="mailto:info@azenigyongyom.hu">info@azenigyongyom.hu</a>
             <a href="tel:+3612345678">+36 12 345 678</a>
-            <p>Magyarország</p>
+            <p>Magyarország, Kiskunhalas</p>
           </div>
-
           <div className={css.message}>
             <p>Köszönöm, hogy meglátogattad
               az oldalamat.

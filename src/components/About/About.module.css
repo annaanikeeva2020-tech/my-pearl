@@ -21,7 +21,12 @@
 }
 
 .text {
-    max-width: 500px;
+    position: relative;
+    max-width: 600px;
+}
+
+.branch {
+    display: none;
 }
 
 .subtitle {
@@ -64,7 +69,17 @@
 .text h2 {
     font-size: 38px;
 }
+
+.branch {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    opacity: 0.55;
 }
+}
+
 
 @media (min-width: 1280px) {
 .content {
@@ -77,10 +92,20 @@
 }
 
 .text {
+    position: relative;
     width: 50%;
 }
 
 .text h2 {
     font-size: 42px;
+}
+
+.branch {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    opacity: 0.55;
 }
 }

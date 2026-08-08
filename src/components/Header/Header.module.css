@@ -1,5 +1,5 @@
 .header {
-    background-color: #faf8f5;
+    background-color: #4a4038;
     border-bottom: 1px solid #e5ddd5;
 }
 
@@ -17,7 +17,7 @@
     font-family: "Cormorant Garamond", serif;;
     font-size: 20px;
     font-weight: 600;
-    color: #3f3b36;
+    color: #faf8f5;
 }
 
 .logoIcon {
@@ -39,6 +39,7 @@
     display: flex;
     align-items: center;
     gap: 32px;
+    color: #faf8f5;;
 }
 
 .nav a,
@@ -67,9 +68,9 @@
 .nav.open a {
     display: flex;
     align-items: center;
-    gap: 10px;
+    /* gap: 10px; */
     font-size: 18px;
-    color: #3f3b36;
+    color: #3f3b36; 
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -137,7 +138,7 @@
     border: none;
     cursor: pointer;
     font-size: 30px;
-    color: #3f3b36;
+    color: #faf8f5;
     transition: color 0.2s ease,
         transform 0.2s ease;
 }

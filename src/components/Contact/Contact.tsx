@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Container from "../UI/Container/Container";
 import Button from "../UI/Button/Button";
 import Modal from "../Modal/Modal";
 import css from "./Contact.module.css";
@@ -9,7 +8,7 @@ export default function Contact() {
 
   return (
     <section className={css.contact} id="contact">
-      <Container>
+        <div className={css.background}>
         <div className={css.content}>
           <h2>Szeretnél egy egyedi ékszert?</h2>
           <p>
@@ -19,8 +18,9 @@ export default function Contact() {
           <Button type="button" onClick={() => setIsModalOpen(true)}>
             Írj nekem
           </Button>
+          </div>
         </div>
-      </Container>
+      
       {isModalOpen && (
         <Modal onClose={() => setIsModalOpen(false)} />
       )}

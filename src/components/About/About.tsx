@@ -20,6 +20,13 @@ export default function About() {
               Minden karkötőt és medált saját kezűleg készítek, nagy
               odafigyeléssel és szeretettel.
             </p>
+
+            <img
+              src="/images/about/branch.png"
+              alt=""
+              className={css.branch}
+            />
+            
           </div>
         </div>
       </Container>

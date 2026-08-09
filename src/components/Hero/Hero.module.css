@@ -9,6 +9,7 @@
 }
 
 .text {
+    order: 0;
     max-width: 520px;
 }
 
@@ -35,6 +36,7 @@
 }
 
 .imageWrapper {
+    order: -1;
     overflow: hidden;
     border-radius: 30px;
 }

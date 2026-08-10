@@ -72,9 +72,10 @@
     font-size: 16px;
 }
 
-.form textarea {
-    min-height: 120px;
-    resize: vertical;
+textarea {
+    resize: none;
+    overflow: hidden;
+
 }
 
 .submitButton {
@@ -99,4 +100,27 @@
 .submitButton:focus-visible {
     outline: 2px solid #b98d63;
     outline-offset: 4px;
+}
+
+.successMessage {
+    text-align: center;
+}
+
+.successMessage h2 {
+    margin-bottom: 16px;
+}
+
+.successMessage p {
+    margin-bottom: 8px;
+}
+
+.errorMessage {
+    color: #b42318;
+    font-size: 14px;
+    margin: 0;
+}
+
+.submitButton:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
 }

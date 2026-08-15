@@ -87,6 +87,7 @@ export default function Modal({ onClose }: ModalProps) {
                 <input
                   type="text"
                   name="name"
+                  placeholder= "Neved"
                   required
                 />
               </label>
@@ -96,6 +97,7 @@ export default function Modal({ onClose }: ModalProps) {
                 <input
                   type="tel"
                   name="contact"
+                  placeholder= "+3612345678"
                   required
                 />
               </label>

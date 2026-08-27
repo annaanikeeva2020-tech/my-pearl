@@ -89,4 +89,87 @@ export const gallery = [
     "✨ Hematit - földelő hatásával egyensúlyt és magabiztosságot hoz"
     ]
   },
+  {
+  id: 7,
+  image: "/images/gallery/bracelet-07.webp",
+  alt: "Kézzel készített karkötő",
+  title: "Pont ezt a fényt kerestem hozzá… 🌾",
+  
+  description: "Nem harsány. Nem akar tökéletesen szabályos lenni.Van benne valami földközeli, meleg és ösztönösen nőies.Mintha egy késő nyári délután hangulatát sikerült volna gyöngyökbe fűznöm. 🌾☀️",
+  
+  materials: [
+    "A barnás holdkő finom, füstös árnyalatait.",
+    "A turmalin mélyebb, rózsás tónusát.",
+    "Az arany apró felvillanásait a napfényben."
+    ]
+  },
+  {
+    id: 8,
+  image: "/images/gallery/bracelet-08.webp",
+  alt: "Kézzel készített karkötő",
+  title: "A festett lávakő különleges",
+  
+  description:
+    "Rusztikus felülete és a fényes hematit szívecskék együtt igazán nőies, mégis vagány karkötőt alkotnak. A púderes-rózsás árnyalat lágy, a három szív pedig pont annyi csillogást ad hozzá, amitől igazán szerethető darab lett. ✨",
+  
+  materials: [
+    "🌸 Festett lávakő",
+    "🩷 Hematit szívecskék",
+    "✨ Kézzel fűzve, szeretettel"
+    ]
+  },
+  {
+  id: 9,
+  image: "/images/gallery/bracelet-09.webp",
+  alt: "Kézzel készített karkötő",
+  title: "Néha pont a szokatlan párosításokból születik valami igazán izgalmas. ✨",
+  description: "Ennél a karkötőnél direkt játszottam a különböző felületekkel és árnyalatokkal – nem akartam, hogy minden „tökéletesen összeillő” legyen. Inkább azt, hogy legyen benne karakter. És azt hiszem, pont ettől lett olyan, amilyenre szerettem volna. Kicsit bohém, kicsit különc… de nagyon nőies.",
+  materials: [
+    "...",
+    "...",
+    "..."
+  ]
+  },
+  {
+  id: 10,
+  image: "/images/gallery/bracelet-10.webp",
+  alt: "Kézzel készített karkötő",
+  title: "Egy kis nyárvégi romantika, amit már ősszel is szívesen viselnék. 🍂🤎",
+  
+  description: "Nekem ebben most pont az tetszik, hogy a természetes árnyalatok, az apró színkülönbségek és az aranyló részletek adják meg az igazi karakterét.",
+  
+  materials: [
+    "...",
+    "...",
+    "..."
+  ]
+  },
+  {
+  id: 11,
+  image: "/images/gallery/bracelet-11.webp",
+  alt: "Kézzel készített karkötő",
+  title: "🌿 Ma valami egészen más történt az asztalomon…",
+  
+  description: "Rusztikus részletek, különböző formák és textúrák, mély zöldek, bronzos és különleges kékes árnyalatok – olyan, mintha egy régi, távoli utazás emlékeit fűztem volna fel egyetlen karkötőre. 🌿 Nagyon nem az a világ, amit általában készítek. És talán pont ezért szerettem bele. 😍",
+  
+  materials: [
+    "...",
+    "...",
+    "..."
+  ]
+  },
+  {
+  id: 12,
+  image: "/images/gallery/bracelet-12.webp",
+  alt: "Kézzel készített karkötő",
+  title: "🧡 Na, ez nem az a „maradjunk észrevétlenek” karkötő. 🖤",
+  
+  description: "Egy kis vagányság, egy kis női erő, egy kis „ma pont olyan leszek, amilyenhez kedvem van”. 😎 Az arany részletek pedig csak rátesznek még egy lapáttal – mert ha már karakteres, legyen igazán az. ✨ Nem simul bele a tömegbe. És pont ez benne a jó.",
+  
+  materials: [
+    "🖤Fekete lávakő - a lávakő a belső erő, stabilitás és kitartás köveként ismert",
+    "🧡Narancs lávakő - a tüzes narancs árnyalat életvidámságot és lendületet visz az összhatásba.",
+    ""
+  ]
+},
 ];

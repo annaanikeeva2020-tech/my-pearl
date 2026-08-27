@@ -8,6 +8,59 @@
     font-size: 32px;
 }
 
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.pageNumbers {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.arrowButton,
+.pageButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.arrowButton {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+}
+
+.pageButton {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.pageButton:hover,
+.arrowButton:hover:not(:disabled) {
+    transform: scale(1.1);
+}
+
+.activePage {
+    background-color: #333;
+    color: #fff;
+}
+
+.arrowButton:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

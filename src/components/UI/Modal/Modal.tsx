@@ -86,7 +86,9 @@ const handleKeyDown = (event: KeyboardEvent) => {
           <FiChevronRight />
         </button>
 
-        <img src={item.image} alt={item.alt} className={css.image}/>
+        <div className={css.imageWrapper}>
+          <img src={item.image} alt={item.alt} className={css.image} />
+        </div>
 
         <h2>{item.title}</h2>
 

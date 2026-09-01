@@ -2,7 +2,7 @@ export const gallery = [
   {
     id: 1,
     image: "/images/gallery/bracelet-01.webp",
-    alt: "Kézzel készített karkötő",
+    alt: "Kézzel készített riolit, matt hegyikristály és korall ásvány karkötő",
     title: "Ez a karkötő olyan, mint egy csendes erdei séta: megnyugtat, feltölt és visszavezet önmagadhoz",
 
     description:
@@ -17,7 +17,7 @@ export const gallery = [
   {
    id: 2,
     image: "/images/gallery/bracelet-02.png",
-    alt: "Kézzel készített karkötő",
+    alt: "Kézzel készített fehér opál ásvány karkötő ezüst díszítéssel",
     title: "Misztikus Opál Karkötő - A Tiszta Elegancia és Harmónia! ",
 
     description:
@@ -32,7 +32,7 @@ export const gallery = [
   {
     id: 3,
     image: "/images/gallery/bracelet-03.webp",
-    alt: "Kézzel készített karkötő",
+    alt: "Kézzel készített matt csíkos achát és képjáspis ásvány karkötő",
     title: "Ma reggel ezzel a különleges karkötővel indult a napom.",
 
     description:
@@ -47,7 +47,7 @@ export const gallery = [
   {
     id: 4,
     image: "/images/gallery/bracelet-04.png",
-    alt: "Kézzel készített medál",
+    alt: "Kézzel készített korall, füstkvarc és napkő ásvány karkötő",
     title: "Tenger szenvedélye – Nap fénye ",
 
     description:
@@ -62,7 +62,7 @@ export const gallery = [
   {
     id: 5,
     image: "/images/gallery/bracelet-05.webp",
-    alt: "Kézzel készített medál",
+    alt: "Kézzel készített napkő, krizantémkő és bézs howlit ásvány karkötő",
     title: "Energia, harmónia és stílus egy karkötőben!",
 
     description:
@@ -77,7 +77,7 @@ export const gallery = [
   {
      id: 6,
     image: "/images/gallery/bracelet-06.png",
-    alt: "Kézzel készített karkötő",
+    alt: "Kézzel készített gránát, matt ónix és hematit ásvány karkötő",
     title: "Tűz és Föld Harmóniája - az Etna erejével átitatva",
 
     description:
@@ -92,7 +92,7 @@ export const gallery = [
   {
   id: 7,
   image: "/images/gallery/bracelet-07.webp",
-  alt: "Kézzel készített karkötő",
+  alt: "Kézzel készített barnás holdkő és turmalin ásvány karkötő arany részletekkel",
   title: "Pont ezt a fényt kerestem hozzá… 🌾",
   
   description: "Nem harsány. Nem akar tökéletesen szabályos lenni.Van benne valami földközeli, meleg és ösztönösen nőies.Mintha egy késő nyári délután hangulatát sikerült volna gyöngyökbe fűznöm. 🌾☀️",
@@ -106,7 +106,7 @@ export const gallery = [
   {
     id: 8,
   image: "/images/gallery/bracelet-08.webp",
-  alt: "Kézzel készített karkötő",
+  alt: "Kézzel készített púder-rózsaszín festett lávakő karkötő hematit szívecskékkel",
   title: "A festett lávakő különleges",
   
   description:
@@ -121,7 +121,7 @@ export const gallery = [
   {
   id: 9,
   image: "/images/gallery/bracelet-09.webp",
-  alt: "Kézzel készített karkötő",
+  alt: "Kézzel készített egyedi női ásvány karkötő különböző textúrákkal",
   title: "Néha pont a szokatlan párosításokból születik valami igazán izgalmas. ✨",
   description: "Ennél a karkötőnél direkt játszottam a különböző felületekkel és árnyalatokkal – nem akartam, hogy minden „tökéletesen összeillő” legyen. Inkább azt, hogy legyen benne karakter. És azt hiszem, pont ettől lett olyan, amilyenre szerettem volna. Kicsit bohém, kicsit különc… de nagyon nőies.",
   materials: [
@@ -133,7 +133,7 @@ export const gallery = [
   {
   id: 10,
   image: "/images/gallery/bracelet-10.webp",
-  alt: "Kézzel készített karkötő",
+  alt: "Kézzel készített természetes árnyalatú ásvány karkötő arany részletekkel",
   title: "Egy kis nyárvégi romantika, amit már ősszel is szívesen viselnék. 🍂🤎",
   
   description: "Nekem ebben most pont az tetszik, hogy a természetes árnyalatok, az apró színkülönbségek és az aranyló részletek adják meg az igazi karakterét.",
@@ -147,7 +147,7 @@ export const gallery = [
   {
   id: 11,
   image: "/images/gallery/bracelet-11.webp",
-  alt: "Kézzel készített karkötő",
+  alt: "Kézzel készített rusztikus ásvány karkötő zöld, bronzos és kékes árnyalatokkal",
   title: "🌿 Ma valami egészen más történt az asztalomon…",
   
   description: "Rusztikus részletek, különböző formák és textúrák, mély zöldek, bronzos és különleges kékes árnyalatok – olyan, mintha egy régi, távoli utazás emlékeit fűztem volna fel egyetlen karkötőre. 🌿 Nagyon nem az a világ, amit általában készítek. És talán pont ezért szerettem bele. 😍",
@@ -161,7 +161,7 @@ export const gallery = [
   {
   id: 12,
   image: "/images/gallery/bracelet-12.webp",
-  alt: "Kézzel készített karkötő",
+  alt: "Kézzel készített fekete és narancssárga lávakő karkötő arany részletekkel",
   title: "🧡 Na, ez nem az a „maradjunk észrevétlenek” karkötő. 🖤",
   
   description: "Egy kis vagányság, egy kis női erő, egy kis „ma pont olyan leszek, amilyenhez kedvem van”. 😎 Az arany részletek pedig csak rátesznek még egy lapáttal – mert ha már karakteres, legyen igazán az. ✨ Nem simul bele a tömegbe. És pont ez benne a jó.",

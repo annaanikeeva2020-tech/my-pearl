@@ -10,9 +10,9 @@ export default function Hero() {
           <div className={css.text}>
             <p className={css.subtitle}>Kézzel készített ékszerek</p>
             <h1 className={css.title}>
-              Egy kis darab szépség,
+              Kézzel készített ásvány karkötők
               <br />
-              amit magaddal vihetsz.
+              és egyedi ékszerek.
             </h1>
             <p className={css.description}>
               Egyedi, kézzel készített karkötők és medálok

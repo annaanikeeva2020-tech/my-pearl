@@ -8,7 +8,7 @@ export default function Materials() {
       <Container>
         <h2 className={css.title}>Miért különlegesek ékszereim?</h2>
         <p className={css.intro}>
-          Gondosan válogatott anyagokból készítek minden egyes ékszert.
+          Gondosan válogatott természetes kövekből, gyöngyökből és különleges díszítőelemekből készítek minden egyes kézzel készített ékszert.
         </p>
         <div className={css.grid}>
           {materials.map((material) => {

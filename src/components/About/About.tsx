@@ -7,18 +7,15 @@ export default function About() {
       <Container>
         <div className={css.content}>
           <div className={css.imageWrapper}>
-            <img src="/images/about/about.jpg" alt="Kézzel készített ékszerek"/>
+            <img src="/images/about/about.jpg" alt="Kézzel készített ásvány karkötők és egyedi ékszerek"/>
           </div>
           <div className={css.text}>
             <h2>Hogyan kezdődött minden?</h2>
             <p>
-              A kézzel készített ékszerek iránti szeretetem egy egyszerű
-              ötlettel kezdődött. Szerettem volna olyan darabokat készíteni,
-              amelyek nemcsak szépek, hanem személyes jelentéssel is bírnak.
+              A kézzel készített ékszerek és a természetes kövek iránti szeretetem egy egyszerű ötlettel kezdődött. Olyan egyedi darabokat szerettem volna készíteni, amelyek nemcsak szépek, hanem személyes jelentéssel is bírnak.
             </p>
             <p>
-              Minden karkötőt és medált saját kezűleg készítek, nagy
-              odafigyeléssel és szeretettel.
+              Minden ásvány karkötőt és medált saját kezűleg készítek, gondosan válogatott kövekből és gyöngyökből, nagy odafigyeléssel és szeretettel. Hiszem, hogy egy kézzel készített ékszer nem csupán kiegészítő, hanem egy apró darab szépség, amely különlegesebbé teheti a mindennapokat.
             </p>
 
             <img

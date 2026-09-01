@@ -82,15 +82,29 @@ export default function Gallery() {
 
           <div className={css.grid}>
             {currentItems.map((item) => (
-              <img
-                className={css.image}
-                key={item.id}
-                src={item.image}
-                alt={item.alt}
-                onClick={() => setSelectedItem(item)}
-              />
-            ))}
+          <article
+            className={css.card}
+            key={item.id}
+            onClick={() => setSelectedItem(item)}
+          >
+          <div className={css.imageWrapper}>
+          <img
+            className={css.image}
+            src={item.image}
+            alt={item.alt}
+          />
           </div>
+
+      <div className={css.cardContent}>
+      <h3>{item.title}</h3>
+
+      <p>{item.description}</p>
+
+      <span className={css.more}>További részletek →</span>
+      </div>
+         </article>
+        ))}
+        </div>
 
           {selectedItem && (
             <Modal

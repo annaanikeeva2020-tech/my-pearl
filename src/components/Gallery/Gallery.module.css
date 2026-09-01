@@ -61,52 +61,124 @@
     cursor: default;
 }
 
+/* ---------- CARDS ---------- */
+
 .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 15px;
-}
-
-.grid img {
-    width: 100%;
-    height: 280px;
-    object-fit: cover;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.grid img:hover {
-    transform: scale(1.03);
-}
-
-@media (min-width: 768px) {
-.grid {
-    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
-.content h2 {
-    font-size: 38px;
+.card {
+    overflow: hidden;
+    border-radius: 20px;
+    background: #fff;
+    cursor: pointer;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
 }
 
-.grid img {
-    height: 320px;
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
+
+/* ---------- IMAGE ---------- */
+
+.imageWrapper {
+    overflow: hidden;
 }
+
+.image {
+    display: block;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* .card:hover .image {
+    transform: scale(1.03);
+} */
+
+
+/* ---------- TEXT ---------- */
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 16px 20px;
+}
+
+.cardContent h3 {
+    margin: 0 0 12px;
+    min-height: 3.6em;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.3;
+    color: #333;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.cardContent p {
+    margin: 0;
+    height: 48px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.more {
+    margin-top: 16px;
+    font-family: "Manrope", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* ---------- TABLET ---------- */
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .content h2 {
+        font-size: 38px;
+    }
+
+    .image {
+        height: 320px;
+    }
+}
+
+/* ---------- DESKTOP ---------- */
 
 @media (min-width: 1280px) {
-.grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-}
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
 
-.content h2 {
-    font-size: 42px;
-}
+    .content h2 {
+        font-size: 42px;
+    }
 
-.grid img {
-    height: 350px;
-}
-
+    .image {
+        height: 350px;
+    }
 }

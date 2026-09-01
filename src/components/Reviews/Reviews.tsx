@@ -23,7 +23,7 @@ export default function Reviews() {
           — {review.name}
         </p>
       </div>
-      <img className={css.image} src={review.image} alt={review.name}/>
+      <img className={css.image} src={review.image} alt={`Vásárlói vélemény – ${review.name}`}/>
             </article>
           ))}
         </div>

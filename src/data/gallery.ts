@@ -3,10 +3,10 @@ export const gallery = [
     id: 1,
     image: "/images/gallery/bracelet-01.webp",
     alt: "Kézzel készített riolit, matt hegyikristály és korall ásvány karkötő",
-    title: "Ez a karkötő olyan, mint egy csendes erdei séta: megnyugtat, feltölt és visszavezet önmagadhoz",
+    title: "Riolit, matt hegyikristály és korall ásvány karkötő – természetes harmónia.",
 
     description:
-    "Ez a különleges ásvány karkötő riolit, matt hegyikristály és korall harmonikus találkozásából született - a természet erejét és a lélek nyugalmát hozva el viselőjének.",
+    "Ez a kézzel készített ásvány karkötő a riolit, a matt hegyikristály és a korall harmonikus találkozásából született. A természetes kövek különleges színei és textúrái nyugodt, természetközeli hangulatot teremtenek, az egyedi összeállítás pedig igazán különleges karaktert ad ennek a nőies karkötőnek.",
 
     materials: [
     "✨ Riolit - a megújulás köve, segít az elengedésben, erősíti az önbizalmat és támogatja a belső átalakulást",
@@ -15,13 +15,13 @@ export const gallery = [
     ]
   },
   {
-   id: 2,
+    id: 2,
     image: "/images/gallery/bracelet-02.png",
     alt: "Kézzel készített fehér opál ásvány karkötő ezüst díszítéssel",
-    title: "Misztikus Opál Karkötő - A Tiszta Elegancia és Harmónia! ",
+    title: "Fehér opál ásvány karkötő ezüst díszítéssel – tiszta elegancia.",
 
     description:
-    "Ha egy olyan kiegészítőre vágysz, amely egyszerre sugároz kifinomultságot és pozitív energiát, akkor ez a csodás fehér opál karkötő neked készült!",
+    "Ez a kézzel készített fehér opál ásvány karkötő egyszerre sugároz kifinomultságot és nőies eleganciát. Az opál különleges fényjátéka és az apró ezüst díszítés harmonikusan egészítik ki egymást, így ez az egyedi karkötő letisztult, mégis különleges kiegészítője lehet a mindennapi vagy alkalmi megjelenésnek.",
 
     materials: [
     "💎 Az opál varázsa - Különleges fényjátékával a tisztaságot és a belső békét szimbolizálja.",
@@ -33,10 +33,10 @@ export const gallery = [
     id: 3,
     image: "/images/gallery/bracelet-03.webp",
     alt: "Kézzel készített matt csíkos achát és képjáspis ásvány karkötő",
-    title: "Ma reggel ezzel a különleges karkötővel indult a napom.",
+    title: "Matt achát és képjáspis ásvány karkötő arany díszítéssel.",
 
     description:
-    "A természet meleg földszínei és a letisztult elegancia találkoznak ebben a kézzel készült darabban.",
+    "Ez a kézzel készített ásvány karkötő a természet meleg földszíneit ötvözi letisztult, nőies eleganciával. A matt csíkos achát és a matt képjáspis harmonikus árnyalataihoz finom, arany cirkónia köves díszítés társul, amely egy kis ragyogást ad az egyedi ékszernek.",
 
     materials: [
     "🤍 Matt csíkos achát – a belső nyugalom és az egyensúly jelképe.",
@@ -48,10 +48,10 @@ export const gallery = [
     id: 4,
     image: "/images/gallery/bracelet-04.png",
     alt: "Kézzel készített korall, füstkvarc és napkő ásvány karkötő",
-    title: "Tenger szenvedélye – Nap fénye ",
+    title: "Korall, füstkvarc és napkő ásvány karkötő – a tenger és a nap hangulata.",
 
     description:
-    "Ez az egyedi ásványkarkötő a természet három erőteljes ajándékát ötvözi:",
+    "Ez az egyedi, kézzel készített ásvány karkötő a korall, a füstkvarc és a napkő különleges kombinációjából született. A meleg, természetes árnyalatok és az ásványok változatos textúrái különleges karaktert adnak ennek a nőies ékszernek. Egy olyan karkötő, amelyben a tenger szenvedélye és a nap fénye találkozik.",
 
     materials: [
     "❤️ Korall – életörömöt és szenvedélyt hoz",
@@ -63,10 +63,10 @@ export const gallery = [
     id: 5,
     image: "/images/gallery/bracelet-05.webp",
     alt: "Kézzel készített napkő, krizantémkő és bézs howlit ásvány karkötő",
-    title: "Energia, harmónia és stílus egy karkötőben!",
+    title: "Napkő, krizantémkő és bézs howlit ásvány karkötő – energia és harmónia.",
 
     description:
-    "Ez a gyönyörű kézzel készült karkötő három különleges ásvány erejét egyesíti:",
+    "Ez a kézzel készített ásvány karkötő három különleges ásvány harmonikus találkozása. A napkő meleg árnyalatait a krizantémkő és a bézs howlit természetes, visszafogott színei egészítik ki. Az egyedi összeállítás egyszerre sugároz eleganciát, harmóniát és nőies könnyedséget.",
 
     materials: [
     "⭐ Napkő – a belső fény és pozitivitás köve, amely segít önbizalmad növelésében.",
@@ -75,13 +75,13 @@ export const gallery = [
     ]
   },
   {
-     id: 6,
+    id: 6,
     image: "/images/gallery/bracelet-06.png",
     alt: "Kézzel készített gránát, matt ónix és hematit ásvány karkötő",
-    title: "Tűz és Föld Harmóniája - az Etna erejével átitatva",
+    title: "Gránát, matt ónix és hematit ásvány karkötő – a tűz és a föld harmóniája.",
 
     description:
-    "A gránát, a matt ónix és a hematit együtt olyan erőt adnak, amely támogat a mindennapokban - stabilitást, védelmet és belső tüzet.",
+    "Ez a kézzel készített ásvány karkötő a gránát, a matt ónix és a hematit karakteres kombinációja. A mély, sötét árnyalatokhoz a gránát meleg tónusai társulnak, így az egyedi ékszer erőt, eleganciát és határozott női karaktert sugároz. Egy különleges karkötő azoknak, akik szeretik a természetes kövek karakteres szépségét.",
 
     materials: [
     "❤️ Gránát - a szenvedély, életenergia és bátorság köve",
@@ -90,14 +90,15 @@ export const gallery = [
     ]
   },
   {
-  id: 7,
-  image: "/images/gallery/bracelet-07.webp",
-  alt: "Kézzel készített barnás holdkő és turmalin ásvány karkötő arany részletekkel",
-  title: "Pont ezt a fényt kerestem hozzá… 🌾",
+    id: 7,
+    image: "/images/gallery/bracelet-07.webp",
+    alt: "Kézzel készített barnás holdkő és turmalin ásvány karkötő arany részletekkel",
+    title: "Barnás holdkő és turmalin ásvány karkötő arany részletekkel.",
   
-  description: "Nem harsány. Nem akar tökéletesen szabályos lenni.Van benne valami földközeli, meleg és ösztönösen nőies.Mintha egy késő nyári délután hangulatát sikerült volna gyöngyökbe fűznöm. 🌾☀️",
+    description:
+    "Ez a kézzel készített ásvány karkötő a barnás holdkő finom, füstös árnyalatait és a turmalin mélyebb, rózsás tónusait ötvözi. Az apró arany részletek meleg ragyogást adnak az egyedi ékszernek. Természetes, nőies és kicsit bohém hangulatú karkötő, amelyben egy késő nyári délután melegsége is visszaköszön.",
   
-  materials: [
+    materials: [
     "A barnás holdkő finom, füstös árnyalatait.",
     "A turmalin mélyebb, rózsás tónusát.",
     "Az arany apró felvillanásait a napfényben."
@@ -105,71 +106,167 @@ export const gallery = [
   },
   {
     id: 8,
-  image: "/images/gallery/bracelet-08.webp",
-  alt: "Kézzel készített púder-rózsaszín festett lávakő karkötő hematit szívecskékkel",
-  title: "A festett lávakő különleges",
+    image: "/images/gallery/bracelet-08.webp",
+    alt: "Kézzel készített púder-rózsaszín festett lávakő karkötő hematit szívecskékkel",
+    title: "Púder-rózsaszín lávakő karkötő hematit szívecskékkel.",
   
-  description:
-    "Rusztikus felülete és a fényes hematit szívecskék együtt igazán nőies, mégis vagány karkötőt alkotnak. A púderes-rózsás árnyalat lágy, a három szív pedig pont annyi csillogást ad hozzá, amitől igazán szerethető darab lett. ✨",
+    description:
+    "Ez a kézzel készített lávakő karkötő rusztikus felületével és fényes hematit szívecskéivel egyszerre nőies és vagány. A púderes-rózsás árnyalat lágy, harmonikus megjelenést kölcsönöz neki, a három apró szív pedig finom csillogással teszi igazán különlegessé ezt az egyedi karkötőt.",
   
-  materials: [
+    materials: [
     "🌸 Festett lávakő",
     "🩷 Hematit szívecskék",
     "✨ Kézzel fűzve, szeretettel"
     ]
   },
   {
-  id: 9,
-  image: "/images/gallery/bracelet-09.webp",
-  alt: "Kézzel készített egyedi női ásvány karkötő különböző textúrákkal",
-  title: "Néha pont a szokatlan párosításokból születik valami igazán izgalmas. ✨",
-  description: "Ennél a karkötőnél direkt játszottam a különböző felületekkel és árnyalatokkal – nem akartam, hogy minden „tökéletesen összeillő” legyen. Inkább azt, hogy legyen benne karakter. És azt hiszem, pont ettől lett olyan, amilyenre szerettem volna. Kicsit bohém, kicsit különc… de nagyon nőies.",
-  materials: [
+    id: 9,
+    image: "/images/gallery/bracelet-09.webp",
+    alt: "Kézzel készített egyedi női ásvány karkötő különböző textúrákkal",
+    title: "Egyedi női ásvány karkötő különleges textúrákkal.",
+    
+    description:
+    "Ez a kézzel készített ásvány karkötő a különböző felületek és árnyalatok játékára épül. Nem a tökéletesen összeillő részletekről szól, hanem a karakterről és az egyediségről. Kicsit bohém, kicsit különc, mégis nőies – egy különleges ékszer azoknak, akik szeretik a megszokottól eltérő stílust.",
+  
+    materials: [
     "...",
     "...",
     "..."
   ]
   },
   {
-  id: 10,
-  image: "/images/gallery/bracelet-10.webp",
-  alt: "Kézzel készített természetes árnyalatú ásvány karkötő arany részletekkel",
-  title: "Egy kis nyárvégi romantika, amit már ősszel is szívesen viselnék. 🍂🤎",
+    id: 10,
+    image: "/images/gallery/bracelet-10.webp",
+    alt: "Kézzel készített természetes árnyalatú ásvány karkötő arany részletekkel",
+    title: "Természetes árnyalatú ásvány karkötő arany részletekkel.",
   
-  description: "Nekem ebben most pont az tetszik, hogy a természetes árnyalatok, az apró színkülönbségek és az aranyló részletek adják meg az igazi karakterét.",
+    description:
+    "Ez a kézzel készített ásvány karkötő a természetes árnyalatok, az apró színkülönbségek és az aranyló részletek harmonikus találkozása. Letisztult, nőies és finoman romantikus egyedi ékszer, amely könnyedén illeszkedik az őszi és a mindennapi megjelenéshez.",
   
-  materials: [
+    materials: [
     "...",
     "...",
     "..."
   ]
   },
   {
-  id: 11,
-  image: "/images/gallery/bracelet-11.webp",
-  alt: "Kézzel készített rusztikus ásvány karkötő zöld, bronzos és kékes árnyalatokkal",
-  title: "🌿 Ma valami egészen más történt az asztalomon…",
+    id: 11,
+    image: "/images/gallery/bracelet-11.webp",
+    alt: "Kézzel készített rusztikus ásvány karkötő zöld, bronzos és kékes árnyalatokkal",
+    title: "Rusztikus stílusú egyedi ásvány karkötő zöld és bronzos árnyalatokkal.",
   
-  description: "Rusztikus részletek, különböző formák és textúrák, mély zöldek, bronzos és különleges kékes árnyalatok – olyan, mintha egy régi, távoli utazás emlékeit fűztem volna fel egyetlen karkötőre. 🌿 Nagyon nem az a világ, amit általában készítek. És talán pont ezért szerettem bele. 😍",
+    description:
+    "Ez a kézzel készített ásvány karkötő rusztikus részletekkel, különböző formákkal és textúrákkal készült. A mély zöld, bronzos és különleges kékes árnyalatok egy távoli utazás hangulatát idézik. Egy igazán karakteres, különleges női ékszer azoknak, akik szeretnek kilépni a megszokott keretekből.",
   
-  materials: [
+    materials: [
     "...",
     "...",
     "..."
   ]
   },
   {
-  id: 12,
-  image: "/images/gallery/bracelet-12.webp",
-  alt: "Kézzel készített fekete és narancssárga lávakő karkötő arany részletekkel",
-  title: "🧡 Na, ez nem az a „maradjunk észrevétlenek” karkötő. 🖤",
+    id: 12,
+    image: "/images/gallery/bracelet-12.webp",
+    alt: "Kézzel készített fekete és narancssárga lávakő karkötő arany részletekkel",
+    title: "Fekete és narancssárga lávakő karkötő arany részletekkel.",
   
-  description: "Egy kis vagányság, egy kis női erő, egy kis „ma pont olyan leszek, amilyenhez kedvem van”. 😎 Az arany részletek pedig csak rátesznek még egy lapáttal – mert ha már karakteres, legyen igazán az. ✨ Nem simul bele a tömegbe. És pont ez benne a jó.",
+    description:
+    "Ez a kézzel készített lávakő karkötő nem a háttérben maradásról szól. A fekete és narancssárga lávakő karakteres kontrasztját arany részletek egészítik ki, így az egyedi ékszer egyszerre vagány, nőies és feltűnő. Egy különleges karkötő azoknak, akik szeretik megmutatni az egyéniségüket.",
   
-  materials: [
+    materials: [
     "🖤Fekete lávakő - a lávakő a belső erő, stabilitás és kitartás köveként ismert",
     "🧡Narancs lávakő - a tüzes narancs árnyalat életvidámságot és lendületet visz az összhatásba.",
     ""
   ]
-},
+  },
+  {
+    id: 13,
+    image: "/images/gallery/bracelet-13.webp",
+    alt: "",
+    title: "",
+
+    description:
+      "",
+    
+    materials: [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    id: 14,
+    image: "/images/gallery/bracelet-14.webp",
+    alt: "",
+    title: "",
+    
+    description:
+    "",
+    
+    materials: [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    id: 15,
+    image: "/images/gallery/bracelet-15.webp",
+    alt: "",
+    title: "",
+    
+    description:
+    "",
+    
+    materials: [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    id: 16,
+    image: "/images/gallery/bracelet-16.webp",
+    alt: "",
+    title: "",
+    
+    description:
+    "",
+    
+    materials: [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    id: 17,
+    image: "/images/gallery/bracelet-17.webp",
+    alt: "",
+    title: "",
+    
+    description:
+    "",
+    
+    materials: [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    id: 18,
+    image: "/images/gallery/bracelet-18.png",
+    alt: "",
+    title: "",
+    
+    description:
+    "",
+    
+    materials: [
+      "",
+      "",
+      ""
+    ]
+  }
 ];

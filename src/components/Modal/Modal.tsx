@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import css from "./Modal.module.css";
 
@@ -24,11 +25,58 @@ export default function Modal({ onClose }: ModalProps) {
   ) => {
     event.preventDefault();
 
-    setIsSending(true);
+    if (isSending) {
+      return;
+    }
+
     setError("");
 
     const form = event.currentTarget;
     const formData = new FormData(form);
+
+    // Honeypot anti-spam protection.
+    // Normal users never see or fill this field.
+    const honeypot = formData.get("_gotcha");
+
+    if (honeypot) {
+      return;
+    }
+
+    const name = String(formData.get("name") || "").trim();
+    const phone = String(formData.get("contact") || "").trim();
+    const message = String(formData.get("message") || "").trim();
+
+    // Name validation
+    if (name.length < 2) {
+      setError("Kérlek, add meg a neved.");
+      return;
+    }
+
+    if (name.length > 50) {
+      setError("A név legfeljebb 50 karakter lehet.");
+      return;
+    }
+
+    // Phone validation
+    // Allows numbers, spaces, +, -, and parentheses.
+    const phonePattern = /^\+?[0-9\s()-]{7,25}$/;
+
+    if (!phonePattern.test(phone)) {
+      setError(
+        "Kérlek, adj meg egy érvényes telefonszámot."
+      );
+      return;
+    }
+
+    // Message validation
+    if (message.length > 1000) {
+      setError(
+        "Az üzenet legfeljebb 1000 karakter lehet."
+      );
+      return;
+    }
+
+    setIsSending(true);
 
     try {
       const response = await fetch(
@@ -88,7 +136,10 @@ export default function Modal({ onClose }: ModalProps) {
                   type="text"
                   name="name"
                   placeholder="Neved"
+                  minLength={2}
+                  maxLength={50}
                   required
+                  autoComplete="name"
                 />
               </label>
 
@@ -98,7 +149,10 @@ export default function Modal({ onClose }: ModalProps) {
                   type="tel"
                   name="contact"
                   placeholder="+3612345678"
+                  pattern="[+]?[0-9\s()-]{7,25}"
+                  maxLength={25}
                   required
+                  autoComplete="tel"
                 />
               </label>
 
@@ -107,9 +161,22 @@ export default function Modal({ onClose }: ModalProps) {
                 <textarea
                   name="message"
                   rows={3}
+                  maxLength={1000}
                   onChange={handleMessageChange}
                 />
               </label>
+
+              {/* Honeypot field for simple bots.
+                  It is hidden from normal users.
+                  If a bot fills it, the form is not submitted. */}
+              <input
+                type="text"
+                name="_gotcha"
+                tabIndex={-1}
+                autoComplete="off"
+                className={css.honeypot}
+                aria-hidden="true"
+              />
 
               <input
                 type="hidden"
@@ -118,7 +185,10 @@ export default function Modal({ onClose }: ModalProps) {
               />
 
               {error && (
-                <p className={css.errorMessage}>
+                <p
+                  className={css.errorMessage}
+                  role="alert"
+                >
                   {error}
                 </p>
               )}

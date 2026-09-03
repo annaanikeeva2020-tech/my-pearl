@@ -182,26 +182,26 @@ export const gallery = [
   {
     id: 13,
     image: "/images/gallery/bracelet-13.webp",
-    alt: "",
-    title: "",
+    alt: "Kézzel készített császár jáspis ásvány karkötő Buddha-fej díszítéssel",
+    title: "Császár jáspis ásvány karkötő Buddha-fej és bronzos részletekkel.",
 
     description:
-      "",
+      "Ez a kézzel készített ásvány karkötő a császár jáspis különleges türkizes, barnás és földszínű mintázatára épül. A bronzos részletek és a Buddha-fej dísz rusztikus, kissé bohém karaktert adnak ennek az egyedi ékszernek. Igazán különleges darab, amelyből csak egyetlen készült, így még egyszer pontosan ugyanilyen karkötő már nem születhet.",
     
     materials: [
-      "",
-      "",
-      ""
+      "🤎 Császár jáspis – különleges türkizes, barnás és földszínű mintázatával igazán egyedi ásvány.",
+      "🧘 Buddha-fej dísz – nyugodt, harmonikus hangulatot ad a karkötőnek.",
+      "✨ Bronzos kiegészítők – meleg árnyalatukkal kiemelik a jáspis természetes színeit és rusztikus karakterét."
     ]
   },
   {
     id: 14,
     image: "/images/gallery/bracelet-14.webp",
-    alt: "",
-    title: "",
+    alt: "Kézzel készített barna és arany színű bőr karkötő",
+    title: "Barna bőr karkötő arany részletekkel – bohém elegancia.",
     
     description:
-    "",
+    "Ez a kézzel készített karkötő régebbről megmaradt bőrből született újjá, egy teljesen új és különleges formában. A barna és arany árnyalatok harmonikus párosa egyszerre ad bohém, vagány és nőies hangulatot az egyedi ékszernek. Egy különleges darab, amelyben valami régi kapott új életet.",
     
     materials: [
       "",
@@ -212,11 +212,11 @@ export const gallery = [
   {
     id: 15,
     image: "/images/gallery/bracelet-15.webp",
-    alt: "",
-    title: "",
+    alt: "Kézzel készített egyedi női karkötő különleges részletekkel",
+    title: "Egyedi női karkötő – amikor az alkotói káoszból megszületik valami különleges.",
     
     description:
-    "",
+    "Ez a kézzel készített karkötő sok-sok ötlet, próbálgatás és apró részlet találkozásából született. Az alkotás közben folyamatosan változott az elképzelés, míg végül minden a helyére került, és megszületett ez az egyedi ékszer. Talán éppen ezért olyan különleges: egy kis alkotói káoszból végül valami gyönyörű született.",
     
     materials: [
       "",
@@ -227,26 +227,26 @@ export const gallery = [
   {
     id: 16,
     image: "/images/gallery/bracelet-16.webp",
-    alt: "",
-    title: "",
+    alt: "Kézzel készített matt tigrisszem, burmai jáde és fehér jáde ásvány karkötő arany részletekkel",
+    title: "Matt tigrisszem, burmai jáde és fehér jáde ásvány karkötő arany részletekkel.",
     
     description:
-    "",
+    "Ez a kézzel készített ásvány karkötő a matt tigrisszem mély, földszínű árnyalatait a burmai jáde friss zöldjével és a fehér jáde finom világosságával ötvözi. Az aranyszínű, csillogó köztesek éppen annyi ragyogást adnak hozzá, hogy az egyedi ékszer elegáns és különleges legyen. A színek harmóniája a nyár friss zöldjét és az ősz meleg, barnás árnyalatait idézi.",
     
     materials: [
-      "",
-      "",
-      ""
+      "🤎 Matt tigrisszem – mély, földszínű árnyalataival meleg és természetes hatást kölcsönöz.",
+      "💚 Burmai jáde és fehér jáde – a friss zöld és a finom világos árnyalatok harmonikus párosa.",
+      "✨ Aranyszínű, csillogó köztesek – elegáns ragyogást és különleges fényt adnak a karkötőnek."
     ]
   },
   {
     id: 17,
     image: "/images/gallery/bracelet-17.webp",
-    alt: "",
-    title: "",
+    alt: "Kézzel készített narancssárga és sötétkék bőr karkötő ezüstszínű szív díszítéssel",
+    title: "Narancssárga és sötétkék bőr karkötő ezüstszínű szívvel.",
     
     description:
-    "",
+    "Ez a kézzel készített karkötő a narancs és a sötétkék merész találkozásából született. A színes bőrökhöz egy nagy, ezüstszínű szív dísz társul, amely karakteres központi részletet ad az egyedi ékszernek. Vagány, kissé merész és igazán különleges darab azoknak, akik szeretik az egyedi, megszokottól eltérő kiegészítőket.",
     
     materials: [
       "",
@@ -257,11 +257,11 @@ export const gallery = [
   {
     id: 18,
     image: "/images/gallery/bracelet-18.png",
-    alt: "",
-    title: "",
+    alt: "Kézzel készített lila bőr karkötő viaszolt ékszerzsinórral és életfa díszítéssel",
+    title: "Lila bőr karkötő viaszolt ékszerzsinórral és életfa díszítéssel.",
     
     description:
-    "",
+    "Ez a kézzel készített karkötő a lila különböző árnyalatait, a bőrt és a viaszolt ékszerzsinórt ötvözi egy különleges összeállításban. A nagy, ezüstszínű életfa medál karakteres központi részletként teszi igazán egyedivé ezt az ékszert. Bohém szabadság, egy kis romantika és erős karakter találkozik benne, így egészen más hangulatot képvisel, mint a korábbi karkötők.",
     
     materials: [
       "",
